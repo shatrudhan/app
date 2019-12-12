@@ -1,0 +1,39 @@
+.ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 80%;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.li {
+  float: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0px 0px 0 0px;
+}
+
+.li a:hover {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  color: red !important;
+  font-weight: 600;
+}
